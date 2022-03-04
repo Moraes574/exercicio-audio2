@@ -1,0 +1,58 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh ;
+    background-color: rgb(75, 74, 74);
+    color: rgb(237, 237, 237);
+    font-family: 'Libre Franklin', sans-serif;
+font-family: 'Zen Kaku Gothic Antique', sans-serif;
+}
+.img{width: 200px;
+}
+
+.descricao{
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+.barra{
+    width: 200px;
+    height: 7px;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+progress{height: 7px;
+width: 0;
+background-color:rgb(75, 74, 74)}
+
+.ponto{width: 20px;
+height: 20px;background-color: #eee;
+border-radius: 50%;
+margin-left: -2px;
+}
+
+.tempo{
+    display: flex;
+    width: 200px;
+    justify-content: space-between;
+}
+
+.player{
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.btn-play, .btn-pause{width:  60px;cursor: pointer;}
+.btn-avancar, .btn-voltar{width: 40px; cursor: pointer}
+.btn-pause{display: none;}
